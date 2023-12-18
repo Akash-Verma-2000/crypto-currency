@@ -1,0 +1,53 @@
+/* This is the stylesheet for the application */
+
+body {
+    background-color: #04293A;
+}
+
+nav {
+    background-color: #041C32 !important;
+    border-bottom: 2px solid #00FCA8;
+    width: 100%;  
+}
+
+/* This is the logo image on the header */
+#log-image {
+    height: 60px;
+}
+
+/* This is toggle button on the main header */
+.menu-button {
+    color: #00FCA8 !important;
+    outline: 2px solid #00FCA8;
+}
+
+a,
+h1,
+h5 {
+    color: #00fca8 !important;
+}
+
+p {
+    color: #1CDAFF;
+}
+
+a:hover {
+    color: #1CDAFF !important;
+}
+
+/* This is container contain all the page data except the navigation haeder */
+.content-container {
+    margin-top: 130px;
+}
+
+/* Stylesheet for the search bar  */
+#my-search-bar,
+#order {
+    border: 2px solid #00fca8 !important;
+}
+
+/* Coins cards */
+.card {
+    background-color: #04293A;
+    border: 2px solid #00FCA8 !important;
+}

@@ -1,0 +1,69 @@
+<!-- This is the line chart page of the application -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Crypto Currency</title>
+
+	<!-- This is the bootstrap stylesheet -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+	<!-- This is the CDN link for the bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+	<!-- This is the custom stylesheet link -->
+	<link rel="stylesheet" href="./styles/index.css">
+
+	<!-- CDN link for the line chart -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+	<!-- This is the navigation bar of the application -->
+	<nav class="navbar navbar-expand-lg position-fixed top-0 z-3">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img id="log-image" src="./images/logo.jpg" alt="logo"></a>
+			<button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<!-- Navigation links -->
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+					<!-- Navigation link for the home page  -->
+					<li class="nav-item">
+						<a class="nav-link" href="/index.html"><i class="bi bi-house-door"></i> Home</a>
+					</li>
+
+					<!-- Navigation link for the chart page  -->
+					<li class="nav-item">
+						<a class="nav-link" href="/line-chart.html"><i class="bi bi-graph-up"></i> Chart</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- This div contains the line chart of the coins -->
+	<div class="container content-container">
+		<canvas id="myChart"></canvas>
+	</div>
+
+	<!-- This is the link for the custom javascript codes -->
+	<script src="./scripts/line-chart.js"></script>
+
+	<!-- This is the link for the bootstrap javascript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
